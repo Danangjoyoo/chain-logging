@@ -1,4 +1,8 @@
 # Chain Logging
+
+[![Downloads](https://static.pepy.tech/personalized-badge/flask-toolkits?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/chain-logging)
+
+## Description
 Distinct every request with an `ID` on your logger and make your log looks like chained
 
 # How to use?
