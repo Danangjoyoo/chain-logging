@@ -5,7 +5,7 @@ from pathlib import Path
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.1.4'
+VERSION = '0.1.7'
 DESCRIPTION = 'Chain Logger to distinct each request for Python Web Server (Support Flask and FastAPI) and looks like the logger is chained'
 
 # Setting up
@@ -21,7 +21,7 @@ setup(
     install_requires=[],
     keywords=['fastapi', 'logging'],
     classifiers=[
-        "Development Status :: 5 - Stable",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.7",
