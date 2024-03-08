@@ -5,7 +5,7 @@ from pathlib import Path
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.1.3'
+VERSION = '0.1.4'
 DESCRIPTION = 'Chain Logger to distinct each request for Python Web Server (Support Flask and FastAPI) and looks like the logger is chained'
 
 # Setting up
