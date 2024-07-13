@@ -3,7 +3,7 @@ import logging
 import sys
 import time
 import typing
-from base import ChainFilter, ChainLogger, ChainStreamer
+from .base import ChainFilter, ChainLogger, ChainStreamer
 from fastapi import FastAPI, Request, Response
 from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
 
